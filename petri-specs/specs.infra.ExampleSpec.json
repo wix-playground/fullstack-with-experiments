@@ -1,0 +1,14 @@
+{
+  "specs.infra.ExampleSpec": {
+    "scopes": [
+      "infra-examples-1",
+      "infra-examples-2"
+    ],
+    "owner": "shahart@wix.com",
+    "onlyForLoggedInUsers": false,
+    "controlGroup": "true",
+    "variants": [
+      "false"
+    ]
+  }
+}

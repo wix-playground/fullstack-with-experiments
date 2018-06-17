@@ -1,0 +1,56 @@
+{
+  "name": "fullstack-with-experiments",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "Shahar Talmi",
+    "email": "shahart@wix.com"
+  },
+  "scripts": {
+    "start": "yoshi start",
+    "precommit": "yoshi lint",
+    "pretest": "yoshi build",
+    "test": "yoshi test",
+    "posttest": "yoshi lint",
+    "release": "yoshi release"
+  },
+  "devDependencies": {
+    "babel-preset-wix": "^1.0.0",
+    "chai": "^3.5.0",
+    "describe-jsdom": "^1.0.0",
+    "enzyme": "^2.3.0",
+    "husky": "^0.13.4",
+    "jsdom-global": "^2.1.0",
+    "react-test-renderer": "^15.5.4",
+    "wix-bootstrap-testkit": "latest",
+    "wix-config-emitter": "latest",
+    "wix-petri-testkit": "^0.1.280",
+    "yoshi": "^2.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "regenerator-runtime": "^0.11.0",
+    "express": "^4.13.4",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "prop-types": "^15.5.4",
+    "wix-bootstrap-ng": "latest",
+    "wix-experiments-react": "^1.0.7",
+    "wix-express-rendering-model": "latest",
+    "wix-renderer": "latest",
+    "wix-run-mode": "latest"
+  },
+  "yoshi": {
+    "externals": {
+      "react": "React",
+      "react-dom": "ReactDOM"
+    }
+  },
+  "babel": {
+    "presets": ["wix"]
+  },
+  "eslintConfig": {
+    "extends": "wix/react"
+  }
+}
