@@ -1,6 +1,6 @@
-import testkit from 'wix-bootstrap-testkit';
-import configEmitter from 'wix-config-emitter';
-import petriTestkit from 'wix-petri-testkit';
+import testkit from '@wix/wix-bootstrap-testkit';
+import configEmitter from '@wix/wix-config-emitter';
+import petriTestkit from '@wix/wix-petri-testkit';
 
 export const app = bootstrapServer();
 export const petriServer = petriTestkit.server({port: 3020});
