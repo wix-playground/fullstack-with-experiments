@@ -1,7 +1,7 @@
 import 'regenerator-runtime/runtime';
 import React from 'react';
 import {render} from 'react-dom';
-import {ExperimentsProvider} from 'wix-experiments-react';
+import {ExperimentsProvider} from '@wix/wix-experiments-react';
 import App from './App';
 
 const experiments = window.__EXPERIMENTS__;

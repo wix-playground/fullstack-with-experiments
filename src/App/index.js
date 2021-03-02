@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {withExperiments} from 'wix-experiments-react';
+import {withExperiments} from '@wix/wix-experiments-react';
 
 const App = props => {
   if (props.experiments.enabled('specs.infra.ExampleSpec')) {

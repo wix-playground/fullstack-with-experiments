@@ -23,10 +23,10 @@
     "husky": "^0.13.4",
     "jsdom-global": "^2.1.0",
     "react-test-renderer": "^15.5.4",
-    "wix-bootstrap-testkit": "latest",
-    "wix-config-emitter": "latest",
-    "wix-petri-testkit": "^0.1.280",
-    "yoshi": "^2.1.2"
+    "@wix/wix-bootstrap-testkit": "latest",
+    "@wix/wix-config-emitter": "latest",
+    "@wix/wix-petri-testkit": "^0.1.280",
+    "@wix/yoshi": "^2.1.2"
   },
   "dependencies": {
     "axios": "^0.15.2",
@@ -35,11 +35,11 @@
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "prop-types": "^15.5.4",
-    "wix-bootstrap-ng": "latest",
-    "wix-experiments-react": "^1.0.7",
-    "wix-express-rendering-model": "latest",
-    "wix-renderer": "latest",
-    "wix-run-mode": "latest"
+    "@wix/wix-bootstrap-ng": "latest",
+    "@wix/wix-experiments-react": "^1.0.7",
+    "@wix/wix-express-rendering-model": "latest",
+    "@wix/wix-renderer": "latest",
+    "@wix/wix-run-mode": "latest"
   },
   "yoshi": {
     "externals": {
@@ -48,7 +48,9 @@
     }
   },
   "babel": {
-    "presets": ["wix"]
+    "presets": [
+      "wix"
+    ]
   },
   "eslintConfig": {
     "extends": "wix/react"

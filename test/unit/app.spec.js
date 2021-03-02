@@ -3,7 +3,7 @@ import React from 'react';
 import {expect} from 'chai';
 import {mount} from 'enzyme';
 import App from '../../src/App';
-import {ExperimentsProvider} from 'wix-experiments-react';
+import {ExperimentsProvider} from '@wix/wix-experiments-react';
 
 describe.jsdom('app', () => {
   function render(experiments) {
